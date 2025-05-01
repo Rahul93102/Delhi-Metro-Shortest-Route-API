@@ -140,40 +140,6 @@ This replaced the initial approach of using CSV data with geographical coordinat
    adb shell curl -s "http://localhost:8080/route?from=Rajiv%20Chowk&to=Dwarka"
    ```
 
-## Deployment Options
-
-### Free Hosting Options
-
-1. **Heroku (Free Tier)**
-
-   - Supports Kotlin/JVM applications
-   - Easy deployment with Git
-   - Limited to 550-1000 hours per month
-
-2. **Railway**
-
-   - Offers a free tier with limited resources
-   - Simple deployment process
-   - Supports Kotlin/Spring applications
-
-3. **Render**
-
-   - Free tier for web services
-   - Automatic deploys from GitHub
-   - Supports JVM applications
-
-4. **Fly.io**
-
-   - Generous free tier (3 small VMs)
-   - Distributed hosting globally
-   - Good for Kotlin/JVM applications
-
-5. **Oracle Cloud Free Tier**
-   - Always free tier with 2 AMD-based VMs
-   - 24GB memory in total
-   - Runs any Kotlin/JVM application
-
-### Deployment Process
 
 For most platforms, the process involves:
 
